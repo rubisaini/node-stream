@@ -8,6 +8,7 @@
     },
     "scripts": {
         "read": "babel-node inputStream.js --presets es2015,stage-2",
-        "write": "babel-node writeStream.js --presets es2015,stage-2"
+        "write": "babel-node writeStream.js --presets es2015,stage-2",
+        "pipe-1": "babel-node pipe-1.js --presets es2015,stage-2"
     }
 }
