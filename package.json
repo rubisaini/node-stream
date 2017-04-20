@@ -1,0 +1,13 @@
+{
+    "name": "http-server",
+    "version": "0.0.1",
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1"
+    },
+    "scripts": {
+        "read": "babel-node inputStream.js --presets es2015,stage-2",
+        "write": "babel-node writeStream.js --presets es2015,stage-2"
+    }
+}
